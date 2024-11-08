@@ -1,0 +1,74 @@
+/*!
+ * Marist CMPT 221L Fall 2024
+ * Chris Carolan
+ */
+
+ *,
+ *:after,
+ *:before {
+   box-sizing: inherit;
+ }
+ 
+ html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+ }
+ 
+ body {
+    background-color: #0022ff;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+.center-text {
+    text-align: center;
+    font-size: 50px;
+    color: #ff6600;
+}
+.menu-container {
+    text-align: left;
+    margin: 20px;
+}
+#MenuButton {
+    background-color: #ff6600; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: #00ff62;
+    cursor: pointer;
+}
+.about-container {
+    text-align: center;
+    margin: 20px;
+}
+#AboutButton {
+    background-color: #ff6600; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: #00ff62;
+    cursor: pointer;
+}
+.contact-container {
+    text-align: center;
+    margin: 20px;
+}
+#ContactButton {
+    background-color: #ff6600; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: #00ff62;
+    cursor: pointer;
+}
+.reservation-container {
+    text-align: right;
+    margin: 20px;
+}
+#ReservationButton {
+    background-color: #ff6600; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: #00ff62;
+    cursor: pointer;
+}
