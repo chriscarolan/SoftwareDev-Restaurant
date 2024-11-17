@@ -89,6 +89,18 @@ body {
     margin-right: 14%;
     color: rgb(246, 230, 230);
 }
+.foodImage{
+    margin-left:90%;
+    margin-top: 4%;
+    width: 20%; 
+    height: auto;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.menuAndPics{
+    flex: auto;
+    text-wrap: 3%;
+}
 .aboutUsHeading{
     margin-top: 4%;
     margin-left: 14%;
@@ -97,6 +109,25 @@ body {
 }
 
 .aboutUs {
+    font-size: 40px;
+    margin-left: 14%;
+    margin-right: 14%;
+    color: rgb(246, 230, 230);
+}
+.personalPhotos{
+    margin-top: 4%;
+    width: 13%; 
+    height: auto;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.contactUsHeading{
+    margin-top: 4%;
+    margin-left: 14%;
+    font-size: 65px;    
+    color: rgb(246, 230, 230);
+}
+.contactUs {
     font-size: 40px;
     margin-left: 14%;
     margin-right: 14%;
