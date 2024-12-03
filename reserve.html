@@ -9,22 +9,63 @@
 <body>
     <link type="text/css" rel="stylesheet" media="all" href="css_rest.css" />
 
-        <h1 class="center-text">
-            <img class="logo" src="https://i.pinimg.com/originals/c5/1c/9e/c51c9e8ef3a9a70d75dd89abdeaccfb8.png"
-                alt="ourLogo">
-            Marist Munchies
-            <img class="logo" src="https://i.pinimg.com/originals/c5/1c/9e/c51c9e8ef3a9a70d75dd89abdeaccfb8.png"
-                alt="ourLogo">
-        </h1>
+    <h1 class="centerText">
+        <img class="logo" src="https://i.pinimg.com/originals/c5/1c/9e/c51c9e8ef3a9a70d75dd89abdeaccfb8.png"
+            alt="ourLogo">
+        Marist Munchies
+        <img class="logo" src="https://i.pinimg.com/originals/c5/1c/9e/c51c9e8ef3a9a70d75dd89abdeaccfb8.png"
+            alt="ourLogo">
+    </h1>
 
-    <div class="button-container">          
-            <a href="html_rest.html"><button id="HomeButton">Home</button> <script src="js_rest.js"></script></a>
-            <a href="menu.html"><button id="MenuButton">Menu</button> <script src="js_rest.js"></script></a>
-            <a href="about.html"><button id="AboutButton">About Us</button> <script src="js_rest.js"></script></a>
-            <a href="contact.html"><button id="ContactButton">Contact</button> <script src="js_rest.js"></script></a>
-            <a href="reserve.html"><button id="ReservationButton">Reserve</button> <script src="js_rest.js"></script></a>
+    <div class="buttonContainer">
+        <a href="html_rest.html"><button id="HomeButton">Home</button>
+            <script src="js_rest.js"></script>
+        </a>
+        <a href="menu.html"><button id="MenuButton">Menu</button>
+            <script src="js_rest.js"></script>
+        </a>
+        <a href="about.html"><button id="AboutButton">About Us</button>
+            <script src="js_rest.js"></script>
+        </a>
+        <a href="contact.html"><button id="ContactButton">Contact</button>
+            <script src="js_rest.js"></script>
+        </a>
+        <a href="reserve.html"><button id="ReservationButton">Reserve</button>
+            <script src="js_rest.js"></script>
+        </a>
     </div>
-    <div class = "reserveMessage"><h2>Reservations: Call Or Reserve Online</h2></div>
+    <div class="reserveMessage">
+        <h2>Reservations: Call Or Reserve Online</h2>
+    </div>
+    <div class="reservationSheet">
+        <p class="reservationInfo">
+            Name: <input type="text" name="name">
+        </p>
+
+        <p class="reservationInfo">
+            Party Size: <input type="number" name="partySize">
+        </p>
+        <p class="reservationInfo">
+            Date: <input type="date" name="date">
+
+        </p>
+        <p class="reservationInfo">
+            Time: <input type="time" name="time">
+        </p>
+        <p class="reservationInfo">
+            Phone Number: <input type="number" name="phoneNumber">
+        </p>
+        <p class="reservationInfo">
+            Email: <input type="text" name="email">
+        </p>
+        <div class="submitButton">
+            <p class="reservationInfo">
+                <a href="reserve.html"><button id="submit">Submit</button>
+                    <script src="js_rest.js"></script>
+                </a>
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -28,13 +28,13 @@ body {
     height: auto;
 }
 
-.center-text {
+.centerText {
     text-align: center;
     font-size: 150px;
     color: #a83232;
 }
 
-.button-container {
+.buttonContainer {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -60,8 +60,8 @@ body {
     text-align: center;
     font-size: 50px;
     color: #a83232;
-    margin-left: 14%;
-    margin-right: 14%
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .images {
@@ -132,6 +132,7 @@ body {
     border-radius: 8px;
     margin-left: 14.4%;
     margin-right: 14.4%;
+    margin-top: 50px;
 }
 
 .contactSection,
@@ -146,7 +147,7 @@ body {
 .contactUsHeading {
     color: #e63946;
     margin-bottom: 15px;
-    font-size: 7em;
+    font-size: 7rem;
     border-bottom: 2px solid #e63946;
     padding-bottom: 5px;
 }
@@ -154,18 +155,54 @@ body {
 .contactUs {
     color: #fff;
     line-height: 1.8;
-    font-size: 3.5em;
+    font-size: 3.5rem;
 }
-.contactUSPic{
+
+.contactUSPic {
     text-align: center;
 }
-.reachOut{
+
+.reachOut {
     text-align: center;
     font-size: 50px;
     color: #e63946;
 }
-.reserveMessage{
+
+.reserveMessage {
     text-align: center;
     font-size: 50px;
     color: rgb(246, 230, 230);
+}
+
+.reservationSheet {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+.reservationInfo {
+    margin-left: 5%;
+    color: black;
+    font-size: 5rem;
+}
+
+input {
+    margin-top: 5%;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+
+#submit {
+    background-color: #a83232;
+    color: black;
+    padding: 40px 80px;
+    border-radius: 12px;
+    font-size: 70px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.submitButton {
+    text-align: center;
 }
