@@ -1,17 +1,7 @@
-/*!
- * Marist CMPT 221L Fall 2024
- * Chris Carolan
- */
-
-*,
-*:after,
-*:before {
-    box-sizing: inherit;
-}
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 50%;
 }
 
 
@@ -30,7 +20,7 @@ body {
 
 .centerText {
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
     color: #a83232;
 }
 
@@ -51,17 +41,17 @@ body {
 #ReservationButton {
     background-color: #a83232;
     color: #fff;
-    padding: 20px 150px;
-    font-size: 40px;
+    padding: 12px 70px;
+    font-size: 30px;
     cursor: pointer;
 }
 
 .welcome {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: #a83232;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .images {
@@ -79,36 +69,27 @@ body {
 .foodHeadings {
     margin-top: 4%;
     margin-left: 14%;
-    font-size: 65px;
+    font-size: 40px;
     color: rgb(246, 230, 230);
 }
 
 .food {
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 14%;
     margin-right: 14%;
     color: rgb(246, 230, 230);
 
 }
 
-.foodImage {
-    margin-left: 63%;
-    margin-top: 4%;
-    width: 40%;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .aboutUsHeading {
     margin-top: 4%;
     margin-left: 14%;
-    font-size: 65px;
+    font-size: 40px;
     color: rgb(246, 230, 230);
 }
 
 .aboutUs {
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 14%;
     margin-right: 14%;
     color: rgb(246, 230, 230);
@@ -130,8 +111,8 @@ body {
     padding: 20px;
     background-color: #222;
     border-radius: 8px;
-    margin-left: 14.4%;
-    margin-right: 14.4%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
 }
 
@@ -155,7 +136,7 @@ body {
 .contactUs {
     color: #fff;
     line-height: 1.8;
-    font-size: 3.5rem;
+    font-size: 25px;
 }
 
 .contactUSPic {
@@ -164,19 +145,19 @@ body {
 
 .reachOut {
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     color: #e63946;
 }
 
 .reserveMessage {
     text-align: center;
-    font-size: 50px;
+    font-size: 38px;
     color: rgb(246, 230, 230);
 }
 
 .reservationSheet {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: whitesmoke;
     border-radius: 5%;
 }
@@ -189,16 +170,16 @@ body {
 
 input {
     margin-top: 5%;
-    font-size: 5rem;
+    font-size: 25px;
     margin-bottom: 5%;
 }
 
 #submit {
     background-color: #a83232;
     color: black;
-    padding: 40px 80px;
+    padding: 20px 40px;
     border-radius: 12px;
-    font-size: 70px;
+    font-size: 50px;
     cursor: pointer;
     margin-bottom: 5%;
 }
